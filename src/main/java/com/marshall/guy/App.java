@@ -2,9 +2,10 @@ package com.marshall.guy;
 
 import java.util.Scanner;
 
-public class App 
+public class App
 {
-    public static void main(String[] args) {
+    public static void main(String[] args)
+    {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter a positive integer: ");
         int iterations = scanner.nextInt();
