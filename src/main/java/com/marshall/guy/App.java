@@ -10,6 +10,12 @@ public class App
         System.out.print("Enter a positive integer: ");
         int iterations = scanner.nextInt();
         scanner.close();
+        
+        if (iterations <= 1)
+        {
+            System.out.println("Please enter a number larger than 1.");
+            System.exit(1);
+        }
 
         for (int i = 1; i <= iterations; i++)
         {
